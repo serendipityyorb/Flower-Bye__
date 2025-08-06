@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.title("🌷Begonia bagh")
-st.markdown("🌸🌸🪷🪷**Best begonia flower gifted to you.Wishing you gook luck,everyday.**🪷🪷🌸🌸")
+st.markdown("**🌸🌸🪷🪷Best begonia flower gifted to you.Wishing you gook luck,everyday.🪷🪷🌸🌸**")
 tab1,tab2,tab3,tab4 = st.tabs(["Red","White","Purple","Green"])
 with tab1:
     st.image("1.jpg",width=500)
