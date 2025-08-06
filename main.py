@@ -1,5 +1,6 @@
 import streamlit as st
-st.title("🌷Begonia Flower")
+
+st.title("🌷Begonia bagh")
 st.info("Best begonia flower gifted to you.Wishing you gook luck,everyday.")
 tab1,tab2,tab3,tab4 = st.tabs(["Red","White","Purple","Green"])
 with tab1:
@@ -22,4 +23,8 @@ with tab4:
     st.image("10.png",width=500)
     st.image("11.png", width=500)
     st.image("12.png", width=500)
+
+st.markdown("<br>"*2, unsafe_allow_html=True)
+st.markdown("&nbsp;" * 120 + " *Bye Serendipity*", unsafe_allow_html=True)
+
 
